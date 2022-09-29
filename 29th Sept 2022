@@ -1,0 +1,73 @@
+/addition of two numbers in C/
+#include <stdio.h>
+
+int main()
+{
+    int a,b,sum;
+    printf("Enter the two numbers:");
+    scanf("%d%d",&a,&b);
+    sum=a+b;
+    printf("%d + %d = %d", a, b, sum);
+    return 0;
+}
+
+
+/addition of three numbers in C/
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c,sum;
+    printf("Enter the three numbers:");
+    scanf("%d%d%d",&a,&b,&c);
+    sum=a+b;
+    printf("%d + %d + %d = %d", a, b, c, sum);
+    return 0;
+}
+
+/area of circle
+
+#include <stdio.h>
+
+int main()
+{
+    int r,area;
+    printf("Enter the radius:");
+    scanf("%d",&r);
+    area=r*r*3.14;
+    printf("The area of the circle is: %d",area);
+}
+
+/simple interest
+#include <stdio.h>
+
+int main()
+{
+    int princ,roi,t,final;
+    printf("Enter the principal amount:");
+    scanf("%d",&princ);
+    printf("Enter the rate of interest:");
+    scanf("%d",&roi);
+    printf("Enter the time:");
+    scanf("%d",&t);
+    final=princ*(1+roi*t);
+    printf("The final amount is: %d",final);
+}
+
+/avg weight
+#include <stdio.h>
+
+int main()
+{
+    int w,item,avg;
+    printf("Enter the weight of items:");
+    scanf("%d",&w);
+    printf("Enter the number of items:");
+    scanf("%d",&item);
+    avg=w/item;
+    printf("The avg weight is: %d",avg);
+}
+
+/
+
+
