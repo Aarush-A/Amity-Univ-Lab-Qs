@@ -64,7 +64,7 @@ int main()
     scanf("%f",&w1);
     printf("Enter the weight of item 2:");
     scanf("%f",&w2);
-    avg=w/2;
+    avg=(w1+w2)/2;
     printf("The avg weight is: %f",avg);
 }
 
