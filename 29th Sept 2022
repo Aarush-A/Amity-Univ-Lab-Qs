@@ -59,13 +59,13 @@ int main()
 
 int main()
 {
-    int w,item,avg;
-    printf("Enter the weight of items:");
-    scanf("%d",&w);
-    printf("Enter the number of items:");
-    scanf("%d",&item);
-    avg=w/item;
-    printf("The avg weight is: %d",avg);
+    float w1,w2,avg;
+    printf("Enter the weight of item 1:");
+    scanf("%f",&w1);
+    printf("Enter the weight of item 2:");
+    scanf("%f",&w2);
+    avg=w/2;
+    printf("The avg weight is: %f",avg);
 }
 
 /f
