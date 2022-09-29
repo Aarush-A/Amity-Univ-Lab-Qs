@@ -68,6 +68,63 @@ int main()
     printf("The avg weight is: %d",avg);
 }
 
-/
+/f
+#include <stdio.h>
+
+int main()
+{
+    printf("######\n#\n#####\n#\n#\n#\n");
+    return 0;
+}
+
+/var swap with 3rd var
+#include <stdio.h>
+
+int main()
+{
+    int v1,v2,temp;
+    printf("Enter two numbers:");
+    scanf("%d%d",&v1,&v2);
+    printf("First Var:%d\n",v1);
+    printf("Second Var:%d\n",v2);
+    printf("Swapping");
+    temp=v1;
+    v1=v2;
+    v2=temp;
+    printf("First Var:%d\n",v1);
+    printf("Second Var:%d\n",v2);
+}
+
+/var swap w/o 3rd var
+#include <stdio.h>
+
+int main()
+{
+    int v1,v2;
+    printf("Enter two numbers:");
+    scanf("%d%d",&v1,&v2);
+    printf("First Var:%d\n",v1);
+    printf("Second Var:%d\n",v2);
+    printf("Swapping");
+    v1=v1+v2;
+    v2=v1-v2;
+    v1=v1-v2;
+    printf("First Var:%d\n",v1);
+    printf("Second Var:%d\n",v2);
+}
+
+
+/celcius to farheneit
+#include <stdio.h>
+
+int main()
+{
+    int cel,far;
+    printf("Enter temperature in celcius:");
+    scanf("%d",&cel);
+    far=((cel)*(9/5))+32;
+    printf("The Temperature in farheneit is: %d",far);
+}
+
 
 
