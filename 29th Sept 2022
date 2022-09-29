@@ -50,7 +50,7 @@ int main()
     scanf("%d",&roi);
     printf("Enter the time:");
     scanf("%d",&t);
-    final=princ*(1+roi*t);
+    final=princ+((princ*roi*t)/100);
     printf("The final amount is: %d",final);
 }
 
@@ -123,11 +123,11 @@ int main()
 
 int main()
 {
-    int cel,far;
+    float cel,far;
     printf("Enter temperature in celcius:");
-    scanf("%d",&cel);
-    far=((cel)*(9/5))+32;
-    printf("The Temperature in farheneit is: %d",far);
+    scanf("%f",&cel);
+    far=((cel)*1.8)+32;
+    printf("The Temperature in farheneit is: %f",far);
 }
 
 
