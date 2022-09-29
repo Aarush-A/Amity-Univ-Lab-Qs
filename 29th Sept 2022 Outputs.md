@@ -1,4 +1,4 @@
-1a.
+1a. 
 ![image](https://user-images.githubusercontent.com/93079062/192942392-3b071762-7332-4f6a-9f4b-f5c25d5c4492.png)
 b.
 ![image](https://user-images.githubusercontent.com/93079062/192942451-772779df-8c52-4157-9f7b-867ecdb23e09.png)
