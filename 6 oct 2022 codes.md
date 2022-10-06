@@ -81,6 +81,7 @@ int main()
     {if (b>c)
         {printf("B is the bigger number:%d",b);}
         else if (c>b)
-        {printf("C is the bigger number:%d",c);}}}```
-        
-  ![image](https://user-images.githubusercontent.com/93079062/194220314-9a4a2cb2-dfee-4561-bfe0-be197c9feb41.png)
+        {printf("C is the bigger number:%d",c);}}
+}
+```       
+![image](https://user-images.githubusercontent.com/93079062/194220314-9a4a2cb2-dfee-4561-bfe0-be197c9feb41.png)
