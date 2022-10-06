@@ -1,4 +1,4 @@
-'''// WAP TO CONVERT SPECIFIC DAYS TO YEARS,MONTHS,DAYS
+```// WAP TO CONVERT SPECIFIC DAYS TO YEARS,MONTHS,DAYS
 #include <stdio.h>
 
 int main() {
@@ -13,9 +13,9 @@ int main() {
     printf("DAYS=%d\n",d);
     return 0;
 }
-'''
+```
 ![image](https://user-images.githubusercontent.com/93079062/194212870-562f5bb8-6962-41b5-9ab5-1979ab561253.png)
-'''
+```
 // WAP TO CONVERT SPECIFIC INTEGER TO HOURS, MINUTES, SECONDS
 #include <stdio.h>
 
@@ -30,10 +30,11 @@ int main() {
     printf("MINUTES=%d\n",c);
     printf("SECONDS=%d\n",d);
     return 0;
-}'''
+}```
+
 ![image](https://user-images.githubusercontent.com/93079062/194213301-e430bb6d-16ad-4d07-886b-0099fec65ea0.png)
-'''
-// WAP TO FIND ROOT OF QUADRATIC EQUATION
+
+```// WAP TO FIND ROOT OF QUADRATIC EQUATION
 
 #include <stdio.h>
 #include <math.h>    
@@ -57,9 +58,9 @@ int main() {
     printf("%lf",f);
     return 0;
 }
-'''
+```
 ![image](https://user-images.githubusercontent.com/93079062/194217850-a84ff18a-fb84-4271-b68d-4b6615a2974f.png)
-'''
+```
 // WAP TO FIND GREATEST OF THREE NUMBERS
 #include <stdio.h>
 int main() 
@@ -97,7 +98,7 @@ int main()
             
         }
     }
-}'''
+}```
 ![image](https://user-images.githubusercontent.com/93079062/194219544-03c1dc2e-625b-4b36-9a60-61cdd3b72d96.png)
 
 
