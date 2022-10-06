@@ -85,3 +85,20 @@ int main()
 }
 ```       
 ![image](https://user-images.githubusercontent.com/93079062/194220314-9a4a2cb2-dfee-4561-bfe0-be197c9feb41.png)
+```
+// WAP TO FIND IF A YEAR IS LEAP OR NOT
+#include <stdio.h>
+int main(){
+    int a,b;
+    printf("Enter Year:");
+    scanf("%d",&a);
+    if(a%4==0){
+        printf("Year is leap");
+        }
+    else{
+        printf("Year is not leap");
+    }
+}
+```
+![image](https://user-images.githubusercontent.com/93079062/194221224-2010a81d-b7a6-459d-976a-328cd2449e57.png)
+
