@@ -73,32 +73,14 @@ int main()
     printf("ENTER C:");
     scanf("%d",&c);
     if(a>b)
-    {
-        if (a>c)
-        {
-            printf("A is the bigger number:%d",a);
-            
-        }
+    {if (a>c)
+        {printf("A is the bigger number:%d",a);}
         else if (c>a)
-        {
-            printf("C is the bigger number:%d",c);
-            
-        }
-    }
+        {printf("C is the bigger number:%d",c);}}
     else if(b>a)
-    {
-        if (b>c)
-        {
-            printf("B is the bigger number:%d",b);
-            
-        }
+    {if (b>c)
+        {printf("B is the bigger number:%d",b);}
         else if (c>b)
-        {
-            printf("C is the bigger number:%d",c);
-            
-        }
-    }
-}```
-![image](https://user-images.githubusercontent.com/93079062/194219544-03c1dc2e-625b-4b36-9a60-61cdd3b72d96.png)
-
-
+        {printf("C is the bigger number:%d",c);}}}```
+        
+  ![image](https://user-images.githubusercontent.com/93079062/194220314-9a4a2cb2-dfee-4561-bfe0-be197c9feb41.png)
