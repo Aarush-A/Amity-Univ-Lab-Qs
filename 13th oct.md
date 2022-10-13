@@ -72,12 +72,13 @@ int main()
     scanf("%d",&sal);
     da=sal*0.4;
     ra=sal*0.2;
-    gross=sal-da-ra;
+    gross=sal+da+ra;
     printf("The gross salary is:%d",gross);
     return 0;
 }
 ```
-![image](https://user-images.githubusercontent.com/93079062/195502271-137ee6c0-6cd5-488a-b862-832b84673cbb.png)
+![image](https://user-images.githubusercontent.com/93079062/195505292-fcce7fb9-b0ec-46e6-824e-5e89ff624fee.png)
+
 
 ```
 //WAP TO CALCULATE AND PRINT ELECTRICITY BILL, THE CUSTOMER ID, AND UNIT CONSUMED BY THE USER SHOULD BE TAKEN FROM THE KEYBOARD AND DISPLAY THE TOTAL AMOUNT TO PAY TO THE CUSTOMER 
