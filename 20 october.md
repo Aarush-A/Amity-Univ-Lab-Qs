@@ -83,3 +83,48 @@ void main()
 ```
 ![image](https://user-images.githubusercontent.com/93079062/196857851-daf2f1ac-d2b3-4f6b-9c1e-f04abf4697f7.png)
 ```
+//A library charges a fine for every book returned late. For first 5 days the fine is 50 paisa, for
+//6-10 days, fine is one rupee and above 10 days, fine is 5 rupees. If you return the book after
+//30 days your membership will be cancelled. Write a program to accept the number of days
+//the member is late to return the book and display the fine or appropriate message.
+#include <stdio.h>
+
+#include <stdio.h>
+void main()
+{
+	int a,b;
+
+	printf("Input the number of days the book was due : ");
+	scanf("%d",&a);
+
+	if(a<5) 
+	  printf("Your fine is 50 paisa.\n");
+	else if( a > 5 && a < 11)
+	  printf("Your fine is 1 rupee.\n");
+	else if( a > 10)
+	  printf("Your fine is 5 rupees.\n");
+	else if( a > 30)
+	  printf("YOUR MEMBERSHIP IS CANCELLED.\n");
+
+}
+```
+![image](https://user-images.githubusercontent.com/93079062/196858570-6c2db44e-741a-4c5b-a34e-9393ce798fa9.png)
+
+```
+//WAP to find area of triangle using heron's formula
+
+#include <stdio.h>
+#include <math.h>
+void main()
+{
+	float a,s,b,c,d,e,f;
+
+	printf("Enter sides A B and C:");
+	scanf("%f%f%f",&a,&b,&c);
+	s=(a+b+c)/2;
+    f=(s*(s-a)*(s-b)*(s-c));
+    e=sqrt(f);
+    printf("The area is:%f",e);
+}
+```
+![image](https://user-images.githubusercontent.com/93079062/196859317-127c1a6f-92a2-401e-8f61-a47c6ea8fb7d.png)
