@@ -57,3 +57,29 @@ int main()
 ```
 ![image](https://user-images.githubusercontent.com/93079062/196855507-7e1b043d-9f33-4b81-8313-93227b838304.png)
 ```
+//WAP to to accept a coordinate point in a XY coordinate system and determine in which quadrant the coordinate point lies.
+#include <stdio.h>
+
+#include <stdio.h>
+void main()
+{
+	int a,b;
+
+	printf("Input the values for X and Y coordinate : ");
+	scanf("%d %d",&a,&b);
+
+	if( a > 0 && b > 0)
+	  printf("The coordinate point lies in the First quandrant.\n");
+	else if( a < 0 && b > 0)
+	  printf("The coordinate point lies in the Second quandrant.\n");
+	else if( a < 0 && b < 0)
+	  printf("The coordinate point lies in the Third quandrant.\n");
+	else if( a > 0 && b < 0)
+	  printf("The coordinate point lies in the Fourth quandrant.\n");
+	else if( a == 0 && b == 0)
+	  printf("The coordinate point lies at the origin.\n");
+
+}  
+```
+![image](https://user-images.githubusercontent.com/93079062/196857851-daf2f1ac-d2b3-4f6b-9c1e-f04abf4697f7.png)
+```
