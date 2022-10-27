@@ -1,4 +1,5 @@
-```//reverse number by not using arithmetic or third variable
+```
+//WAP to reverse number by not using arithmetic or third variable
 
 #include <stdio.h>
 
@@ -17,7 +18,7 @@ int main()
 ```
 ![image](https://user-images.githubusercontent.com/93079062/198190036-10d02e6b-7b7c-47aa-8403-db1560af3584.png)
 ```
-//reverse a 4 digit number
+//WAP to reverse a 4 digit number
 #include <stdio.h>
 int main()
 {
@@ -34,7 +35,7 @@ int main()
 ```
 ![image](https://user-images.githubusercontent.com/93079062/198192990-1c0a712f-d1c2-4da4-89bd-03225a2d2391.png)
 ```
-//factorial of a number
+//WAP to find factorial of a number
 #include <stdio.h>
 int main()
 {   
@@ -52,7 +53,7 @@ int main()
 ```
 ![image](https://user-images.githubusercontent.com/93079062/198194684-de09b4f7-a56a-40f1-9452-1a096b7dcc06.png)
 ```
-//sum of two digits of a number
+//WAP to accept an integer and find sum of digits
 #include <stdio.h>
 int main()
 {   
@@ -68,7 +69,7 @@ int main()
 ```
 ![image](https://user-images.githubusercontent.com/93079062/198195003-f8de8f0c-98a1-4c54-90a8-f18e0bd28c8e.png)
 ```
-//fibonacci series
+//WAP to print Fibonacci sequence and sum
 #include <stdio.h>
 #include <math.h>
 int main()
