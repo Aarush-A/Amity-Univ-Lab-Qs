@@ -52,4 +52,25 @@ int main()
 ```
 ![image](https://user-images.githubusercontent.com/93079062/198194684-de09b4f7-a56a-40f1-9452-1a096b7dcc06.png)
 ```
-
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+      int a,b,c,n,i=2,s=1;
+      a=0;
+      b=1;
+      printf("Enter number of terms for Fibonacci series: ");
+      scanf("%d",&n);
+      printf("\nFibonacci Series Upto %d Terms:\n",n);
+      printf("%d,%d",a,b);
+      while(i<n)
+      {
+            c=a+b;
+            printf(",%d",c);
+            a=b;
+            b=c;
+            s=s+c;
+            i++;
+      }
+      printf("\nSum of Fibonacci Series:%d",s);
+}
