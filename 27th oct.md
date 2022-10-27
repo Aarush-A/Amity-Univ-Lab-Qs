@@ -19,17 +19,19 @@ int main()
 ```
 //reverse a 4 digit number
 #include <stdio.h>
-
 int main()
 {
     int n,a,b,c,d;
     printf("Enter the 4 digit number:");
-    scanf("%d",n);
+    scanf("%d",&n);
     printf("The number is:%d\n",n);
     a=n%10;
     b=((n-a)/10)%10;
-    c=((n-((b*10)+a))/10)%10;
-    d=((n-((c*100)+(b*10)+a))/10)%10;
+    c=((n-((b*10)+a))/100)%10;
+    d=((n-((c*100)+(b*10)+a))/1000)%10;
     printf("The swapped digit:%d%d%d%d",a,b,c,d);
-    return 0;
-}```
+}
+```
+![image](https://user-images.githubusercontent.com/93079062/198192990-1c0a712f-d1c2-4da4-89bd-03225a2d2391.png)
+```
+
