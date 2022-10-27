@@ -28,8 +28,8 @@ int main()
     printf("The number is:%d\n",n);
     a=n%10;
     b=((n-a)/10)%10;
-    c=((n-b)/10)%10;
-    d=((n-c)/10)%10;
+    c=((n-((b*10)+a)/10)%10;
+    d=((n-((c*100)+(b*10)+a))/10)%10;
     printf("The swapped digit:%d%d%d%d",a,b,c,d);
     return 0;
 }```
