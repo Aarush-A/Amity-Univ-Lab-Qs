@@ -52,4 +52,20 @@ int main()
 ```
 ![image](https://user-images.githubusercontent.com/93079062/198194684-de09b4f7-a56a-40f1-9452-1a096b7dcc06.png)
 ```
+//sum of two digits of a number
+#include <stdio.h>
+int main()
+{   
+    int a,n,b,sum;
+    printf("Enter number:");
+    scanf("%d",&a);
+    n=a%10;
+    b=(a-n)/10;
+    sum=n+b;
+    printf("The sum is:%d",sum);
+    return 0;
+}
+```
+![image](https://user-images.githubusercontent.com/93079062/198195003-f8de8f0c-98a1-4c54-90a8-f18e0bd28c8e.png)
+```
 
