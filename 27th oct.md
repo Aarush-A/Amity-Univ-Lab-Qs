@@ -34,4 +34,22 @@ int main()
 ```
 ![image](https://user-images.githubusercontent.com/93079062/198192990-1c0a712f-d1c2-4da4-89bd-03225a2d2391.png)
 ```
+//factorial of a number
+#include <stdio.h>
+int main()
+{   
+    int a,n,b;
+    n=b=1;
+    printf("Enter number:");
+    scanf("%d",&a);
+    while (n<=a){
+        b*=n;
+        n++;
+    }
+    printf("The factorial is:%d",b);
+    return 0;
+}
+```
+![image](https://user-images.githubusercontent.com/93079062/198194684-de09b4f7-a56a-40f1-9452-1a096b7dcc06.png)
+```
 
