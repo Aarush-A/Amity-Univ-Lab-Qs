@@ -9,14 +9,15 @@ int main()
     int s=0,n;
     printf("Enter N:");
     scanf("%d",&n);
-    for(int x=0;x<=n;x+=2){
+    for(int x=0;x<=(n*2);x+=2){
             s=s+x;
     }
     printf("%d",s);
     return 0;
 }
 ```
-![image](https://user-images.githubusercontent.com/93079062/201000338-7bc529e7-3cbd-4d8e-b73b-f77aea37326d.png)
+![image](https://user-images.githubusercontent.com/93079062/201002030-2481f0d2-ccc9-497b-849f-a091612a3746.png)
+
 ```
 //Write a program to check a number whether it is prime number or not.
 
