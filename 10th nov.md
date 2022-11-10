@@ -69,7 +69,7 @@ int main()
 ```
 //Write a program to find the sum of following series:
 //S = 1/1! + 2/2! + 3/3! + ………….. 7 terms.
-
+#include<stdio.h>
 int main()  
 {  
     int n= 1, c;  
@@ -89,4 +89,22 @@ int main()
 ```
 ![image](https://user-images.githubusercontent.com/93079062/201008139-090048cc-e6a1-466a-9fbb-57f8c62e439f.png)
 
-
+```
+//Write a program to find the sum of following series: 1! + 2! + 3! + 4! + ….. + n!
+#include<stdio.h>
+int main()  
+{  
+int i,n,f=1;
+float sum=0.0;
+printf("Enter Value of n:");
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+{
+f=f*i;
+sum=sum+(f/i);
+}
+printf("The value of series is %f",sum);
+}
+```
+![image](https://user-images.githubusercontent.com/93079062/201008932-56a972ad-1330-4a52-8100-e34bf6c4ad0a.png)
+```
