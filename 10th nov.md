@@ -91,22 +91,22 @@ int main()
 
 ```
 //Write a program to find the sum of following series: 1! + 2! + 3! + 4! + ….. + n!
-#include<stdio.h>
-int main()  
-{  
-int i,n,f=1;
-float sum=0.0;
-printf("Enter Value of n:");
-scanf("%d",&n);
-for(i=1;i<=n;i++)
+#include <stdio.h>
+int main()
 {
-f=f*i;
-sum=sum+(f/i);
+    int f = 1, Sum = 0,N;
+    printf("Enter N:");
+    scanf("%d",&N);
+    for (int i = 1; i <= N; i++) {
+        f = f * i;
+        Sum += f;
+    }
+    printf("%d",Sum);
 }
-printf("The value of series is %f",sum);
-}
+
 ```
-![image](https://user-images.githubusercontent.com/93079062/201008932-56a972ad-1330-4a52-8100-e34bf6c4ad0a.png)
+![image](https://user-images.githubusercontent.com/93079062/201729108-7536199b-8fa1-4931-9d3b-7876da1ac7c4.png)
+
 ```
 //Write a program to find the sum of following series: -1^3+3^3-5^3+7^3...to n terms
 
