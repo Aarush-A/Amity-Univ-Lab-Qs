@@ -1,7 +1,7 @@
 //Patterns
 
 
-```
+```cpp
 //* pyramid
 #include <stdio.h>
 
