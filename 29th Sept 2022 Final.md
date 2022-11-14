@@ -1,4 +1,5 @@
-```1a. SUM OF TWO NUMBERS
+```c
+1a. SUM OF TWO NUMBERS
 #include <stdio.h>
 
 int main()
@@ -12,7 +13,8 @@ int main()
 }
 ```
 ![image](https://user-images.githubusercontent.com/93079062/192942392-3b071762-7332-4f6a-9f4b-f5c25d5c4492.png)
-```b. SUM OF THREE NUMBERS 
+```c
+b. SUM OF THREE NUMBERS 
 #include <stdio.h>
 
 int main()
@@ -26,7 +28,7 @@ int main()
 }
 ```
 ![image](https://user-images.githubusercontent.com/93079062/192942451-772779df-8c52-4157-9f7b-867ecdb23e09.png)
-```
+```c
 2.AREA OF CIRCLE
 #include <stdio.h>
 
@@ -40,7 +42,7 @@ int main()
 }
 ```
 ![image](https://user-images.githubusercontent.com/93079062/192942495-9861f4db-96c0-489d-8e63-68f19b401919.png)
-```
+```c
 3.SIMPLE INTEREST
 #include <stdio.h>
 
@@ -58,7 +60,7 @@ int main()
 }
 ```
 ![image](https://user-images.githubusercontent.com/93079062/192943387-375ed2be-c6df-42d4-8c69-d5bf5a5179d8.png)
-```
+```c
 4.WEIGHT OF ITEMS
 #include <stdio.h>
 
@@ -78,7 +80,7 @@ int main()
 }
 ```
 ![image](https://user-images.githubusercontent.com/93079062/192943450-e6111e38-724a-4922-88d0-dd56ac4314bc.png)
-```
+```c
 5.F FROM #
 #include <stdio.h>
 
@@ -89,7 +91,7 @@ int main()
 }
 ```
 ![image](https://user-images.githubusercontent.com/93079062/192943493-246d7858-b130-4d1c-bc2c-d7e7daf2b6e6.png)
-```
+```c
 6.a SWAP DIGITS WITH THIRD VARIABLE
 #include <stdio.h>
 
@@ -129,7 +131,7 @@ int main()
 }
 ```
 ![image](https://user-images.githubusercontent.com/93079062/192943636-a2cb6c02-25cc-49e6-a021-2333df47c7dd.png)
-```
+```c
 7.CELCIUS TO FAHRENEIT
 #include <stdio.h>
 
