@@ -1,4 +1,5 @@
-```//(a) Write a C program to check whether a triangle is Equilateral, scalene, or isosceles
+```c
+//(a) Write a C program to check whether a triangle is Equilateral, scalene, or isosceles
 
 #include <stdio.h>
 
@@ -26,7 +27,7 @@ int main()
 }
 ```
 ![image](https://user-images.githubusercontent.com/93079062/196854851-ee884af1-c781-4bb1-8e1f-a8a3ab76f1b1.png)
-```
+```c
 //Write a C program to check whether a triangle is right angles, obtuse, acute triangle 
 
 #include <stdio.h>
@@ -56,7 +57,7 @@ int main()
 }
 ```
 ![image](https://user-images.githubusercontent.com/93079062/196855507-7e1b043d-9f33-4b81-8313-93227b838304.png)
-```
+```c
 //WAP to to accept a coordinate point in a XY coordinate system and determine in which quadrant the coordinate point lies.
 #include <stdio.h>
 
@@ -82,7 +83,7 @@ void main()
 }  
 ```
 ![image](https://user-images.githubusercontent.com/93079062/196857851-daf2f1ac-d2b3-4f6b-9c1e-f04abf4697f7.png)
-```
+```c
 //A library charges a fine for every book returned late. For first 5 days the fine is 50 paisa, for
 //6-10 days, fine is one rupee and above 10 days, fine is 5 rupees. If you return the book after
 //30 days your membership will be cancelled. Write a program to accept the number of days
@@ -110,7 +111,7 @@ void main()
 ```
 ![image](https://user-images.githubusercontent.com/93079062/196858570-6c2db44e-741a-4c5b-a34e-9393ce798fa9.png)
 
-```
+```c
 //WAP to find area of triangle using heron's formula
 
 #include <stdio.h>
