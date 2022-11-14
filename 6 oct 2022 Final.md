@@ -16,7 +16,7 @@ int main() {
 }
 ```
 ![image](https://user-images.githubusercontent.com/93079062/194212870-562f5bb8-6962-41b5-9ab5-1979ab561253.png)
-```
+```c
 // WAP TO CONVERT SPECIFIC INTEGER TO HOURS, MINUTES, SECONDS
 #include <stdio.h>
 
@@ -35,7 +35,8 @@ int main() {
 
 ![image](https://user-images.githubusercontent.com/93079062/194213301-e430bb6d-16ad-4d07-886b-0099fec65ea0.png)
 
-```// WAP TO FIND ROOT OF QUADRATIC EQUATION
+```c
+// WAP TO FIND ROOT OF QUADRATIC EQUATION
 
 #include <stdio.h>
 #include <math.h>    
@@ -61,7 +62,7 @@ int main() {
 }
 ```
 ![image](https://user-images.githubusercontent.com/93079062/194217850-a84ff18a-fb84-4271-b68d-4b6615a2974f.png)
-```
+```c
 // WAP TO FIND GREATEST OF THREE NUMBERS
 #include <stdio.h>
 int main() 
@@ -86,7 +87,7 @@ int main()
 }
 ```       
 ![image](https://user-images.githubusercontent.com/93079062/194220314-9a4a2cb2-dfee-4561-bfe0-be197c9feb41.png)
-```
+```c
 // WAP TO FIND IF A YEAR IS LEAP OR NOT
 #include <stdio.h>
 int main(){
