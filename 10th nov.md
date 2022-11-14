@@ -1,4 +1,4 @@
-```
+```c
 //Write a program to find the sum of following series:
 //S = 2+4+6+8+……………N terms.
 
@@ -18,7 +18,7 @@ int main()
 ```
 ![image](https://user-images.githubusercontent.com/93079062/201002030-2481f0d2-ccc9-497b-849f-a091612a3746.png)
 
-```
+```c
 //Write a program to check a number whether it is prime number or not.
 
 #include <stdio.h>
@@ -43,7 +43,7 @@ int main()
 }
 ```
 ![image](https://user-images.githubusercontent.com/93079062/201001434-bf774f11-6e4a-41af-b45e-229d474eabd1.png)
-```
+```c
 //Write a program to find the sum of following series:
 //1 – 1/2 + 1/3 – 1/4 + 1/5 - …… up to n terms.
 
@@ -66,7 +66,7 @@ int main()
 }
 ```
 ![image](https://user-images.githubusercontent.com/93079062/201003862-b36df4e5-5959-4f5d-950b-94dda8a367eb.png)
-```
+```c
 //Write a program to find the sum of following series:
 //S = 1/1! + 2/2! + 3/3! + ………….. 7 terms.
 #include<stdio.h>
@@ -89,7 +89,7 @@ int main()
 ```
 ![image](https://user-images.githubusercontent.com/93079062/201008139-090048cc-e6a1-466a-9fbb-57f8c62e439f.png)
 
-```
+```c
 //Write a program to find the sum of following series: 1! + 2! + 3! + 4! + ….. + n!
 #include <stdio.h>
 int main()
@@ -107,7 +107,7 @@ int main()
 ```
 ![image](https://user-images.githubusercontent.com/93079062/201729108-7536199b-8fa1-4931-9d3b-7876da1ac7c4.png)
 
-```
+```c
 //Write a program to find the sum of following series: -1^3+3^3-5^3+7^3...to n terms
 
 #include<stdio.h>
