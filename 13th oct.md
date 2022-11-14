@@ -1,4 +1,4 @@
-```
+```c
 //WAP TO CHECK IF A CHARACTER IS A DIGIT OR NUMBER
 
 #include <stdio.h>
@@ -18,7 +18,7 @@ int main()
 ```
 ![image](https://user-images.githubusercontent.com/93079062/195499730-d2c28cb9-499d-42a9-b7f6-bb30c6f49f21.png)
 
-```
+```c
 //WAP TO CHECK IF A CHARACTER IS A VOWEL OR CONSONANT
 
 #include <stdio.h>
@@ -38,7 +38,7 @@ int main()
 ```
 ![image](https://user-images.githubusercontent.com/93079062/195501330-d91bdab7-9563-41b2-b460-625421802686.png)
 
-```
+```c
 //WAP TO FIND SMALLEST OF TWO NUMBERS
 
 #include <stdio.h>
@@ -60,7 +60,7 @@ int main()
 ```
 ![image](https://user-images.githubusercontent.com/93079062/195501592-201339bd-6ce9-4e14-901a-b33c271c79d2.png)
 
-```
+```c
 //WAP TO FIND GROSS SALARY OF EMPLOYEE IF DA IS 40% OF BASIC SALARY AND IF RA IS 20% OF BASIC SALARY
 
 #include <stdio.h>
@@ -80,7 +80,7 @@ int main()
 ![image](https://user-images.githubusercontent.com/93079062/195505292-fcce7fb9-b0ec-46e6-824e-5e89ff624fee.png)
 
 
-```
+```c
 //WAP TO CALCULATE AND PRINT ELECTRICITY BILL, THE CUSTOMER ID, AND UNIT CONSUMED BY THE USER SHOULD BE TAKEN FROM THE KEYBOARD AND DISPLAY THE TOTAL AMOUNT TO PAY TO THE CUSTOMER 
 //UPTO 199, 1.20
 //200-500 1.8 
