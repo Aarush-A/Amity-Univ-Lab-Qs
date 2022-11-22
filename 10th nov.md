@@ -110,22 +110,19 @@ int main()
 ```c
 //Write a program to find the sum of following series: -1^3+3^3-5^3+7^3...to n terms
 
-#include<stdio.h>
-#include<math.h>
-int main() {
-	int n,i;
-	int sum=0;
-	printf("Enter N: ");
-	scanf("%d",&n);
-	sum = pow(((n * (n + 1) ) / 2),2);
-	printf("Sum:");
-	for (i =1;i<=n;i++) {
-		if (i != n)
-		             printf("%d^3 + ",i); 
-		             else
-		             printf("%d^3 = %d ",i,sum);
-	}
-	return 0;
+#include <stdio.h>
+int main(){
+    int n1,n,n2,a,b,sum=-1;
+    printf("Enter N:");
+    scanf("%d",&n);
+    for(a=3;a<=n*2;a+=4){
+        sum=sum+(a*a*a);
+    }
+    for(b=5;b<n*2;b+=4){
+        sum=sum-(b*b*b);
+    }
+    printf("%d",sum);
 }
 ```
-![image](https://user-images.githubusercontent.com/93079062/201009395-e31344cf-6ed4-4395-8802-ecf672a7eb41.png)
+![image](https://user-images.githubusercontent.com/93079062/203366294-26ea5759-2479-48f8-b59b-68db46a65688.png)
+
