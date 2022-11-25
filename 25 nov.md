@@ -22,14 +22,10 @@ int main(){
     }
     printf("The sum of elements is:%d",sum);
     printf("\n");
-    double avg=0;
-    int z=0;
-    for(z;z<n;z++){
-        avg=avg+(arr[z]);
-    }
-    avg=avg/(z+1);
     
-    printf("The average of elements is:%lf",&avg);
+    float avg=0;
+    avg=sum/n;
+    printf("The average of elements is:%f",avg);
     printf("\n");
     
     int max;
@@ -54,3 +50,4 @@ int main(){
    return 0;
 }
 ```
+
