@@ -13,7 +13,7 @@ int main(){
     }
     printf("The array is:"); 
     for(int l=0;l<n;l++){
-        printf("%d", arr[l]);
+        printf("%d ", arr[l]);
      }
     printf("\n");
     int sum=0;
@@ -50,5 +50,6 @@ int main(){
    return 0;
 }
 ```
-![image](https://user-images.githubusercontent.com/93079062/203901958-a0137c02-fc84-47b7-8a23-29da74c792be.png)
+![image](https://user-images.githubusercontent.com/93079062/203902251-1bef2e7f-391d-4f30-af6e-ac3c2816b327.png)
+
 
