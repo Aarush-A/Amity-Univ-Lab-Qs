@@ -98,3 +98,49 @@ int main(){
 }
 ```
 ![image](https://user-images.githubusercontent.com/93079062/204966766-60a394fe-bebb-474e-af4e-77ccd53a4d14.png)
+
+```c
+/* Write a program in C to print the following pattern:
+*
+* *
+* * * */
+#include <stdio.h>
+
+int main()
+{
+    int n,a,b;
+    printf("Enter number of rows:");
+    scanf("%d",&n);
+    for(a=0;a<n;a++){
+        for(b=0;b<=a;b++){
+            printf("*");
+            
+        }
+        printf("\n");
+    }
+}
+```
+![image](https://user-images.githubusercontent.com/93079062/201729696-0fff2d10-3e64-4ad1-b075-3b1c872f46c6.png)
+
+```c
+/*Write a program in C to print the following pattern:
+1
+1 2
+1 2 3 */
+#include <stdio.h>
+
+int main()
+{
+    int n,a,b;
+    printf("Enter number of rows:");
+    scanf("%d",&n);
+    for(a=0;a<=n;a++){
+        for(b=1;b<=a;b++){
+            printf("%d",b);
+            
+        }
+        printf("\n");
+    }
+}
+```
+![image](https://user-images.githubusercontent.com/93079062/201729790-fc3f36ea-f4c1-460e-8971-e77524e2b7a0.png)
