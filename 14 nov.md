@@ -25,7 +25,10 @@ int main()
 ![image](https://user-images.githubusercontent.com/93079062/201729696-0fff2d10-3e64-4ad1-b075-3b1c872f46c6.png)
 
 ```c
-//number pyramid
+/*Write a program in C to print the following pattern:
+1
+1 2
+1 2 3 */
 #include <stdio.h>
 
 int main()
