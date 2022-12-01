@@ -144,3 +144,76 @@ int main()
 }
 ```
 ![image](https://user-images.githubusercontent.com/93079062/201729790-fc3f36ea-f4c1-460e-8971-e77524e2b7a0.png)
+
+```c
+/*Write a program in C to print the following pattern:
+1
+2 2
+3 3 3
+*/
+#include <stdio.h>
+
+int main()
+{
+    int n,a,b;
+    printf("Enter number of rows:");
+    scanf("%d",&n);
+    for(a=1;a<=n;a++){
+        for(b=1;b<=a;b++){
+            printf("%d",a);
+        }
+        printf("\n");
+        
+    }
+}
+```
+![image](https://user-images.githubusercontent.com/93079062/204968496-b3310c1c-6a41-4b31-96a4-b400e9c67ac6.png)
+```c
+/*Write a program in C to print the following pattern:
+3
+3 2
+3 2 1
+*/
+#include <stdio.h>
+
+int main()
+{
+    int n,a,b;
+    printf("Enter number of rows:");
+    scanf("%d",&n);
+    for(a=n;a>0;a--){
+        for(b=n;b>=a;b--){
+            printf("%d",b);
+        }
+        printf("\n");
+    }
+}
+```
+![image](https://user-images.githubusercontent.com/93079062/204969582-b8194ef3-b7c6-453c-98e0-ea5c3817451f.png)
+```c
+/*. Write a program in C to print the following pattern:
+3
+2 2
+1 1 1
+*/
+#include <stdio.h>
+
+int main()
+{
+    int n,a,b;
+    printf("Enter number of rows:");
+    scanf("%d",&n);
+    for(a=n;a>0;a--){
+        for(b=n;b>=a;b--){
+            printf("%d",a);
+        }
+        printf("\n");
+    }
+}
+```
+![image](https://user-images.githubusercontent.com/93079062/204969646-aebe7357-0605-48cf-9c23-9a8ff8fc6317.png)
+```
+
+
+
+
