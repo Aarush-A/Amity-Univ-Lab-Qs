@@ -1,8 +1,11 @@
 //Patterns
 
 
-```cpp
-//* pyramid
+```c
+/* Write a program in C to print the following pattern:
+*
+* *
+* * * */
 #include <stdio.h>
 
 int main()
