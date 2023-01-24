@@ -1,8 +1,6 @@
 # Amity-Univ-Lab-Qs
 
-Guys please cite my source before you copy my repository :)
-Else, heres the copyright below...
-
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=aarush-a&label=Profile%20views&color=0e75b6&style=flat" alt="aarush-a" /> </p>
 
 MIT License
 
