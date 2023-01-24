@@ -1,4 +1,4 @@
-```c
+
 #include <stdio.h>
 struct{
     char *engine;
@@ -33,4 +33,4 @@ int main(){
     printf("%f Km/pl\n",car2.mileage);
     return 0;
 }
-```
+
